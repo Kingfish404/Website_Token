@@ -8,5 +8,4 @@ window.onload = function () {
     document.getElementById("teamCul").style.height = h+"px";
     document.getElementById("teamJG").style.height = h+"px";
     document.getElementById("aboutbox").style.height = (h)*0.7+"px";
-    document.getElementById("aboutPic").src="images/aboutToken.gif";
 }

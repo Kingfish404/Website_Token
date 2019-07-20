@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1,a{
+    text-decoration: none;
+    color: black;
+    margin: 0 50px 10px;
+}
+
+#header{
+    height: 70px;
+    width:100%;
+    font:30px/70px '微软雅黑 Light';
+    position: fixed;
+    top:0;
+    z-index: 999;
+    background-color: #fff;
+}
+#header img{float:left;}
+#header a{
+    margin: 0 20px;
+    float: right;color:#999;
+    font: 18px/70px '微软雅黑 Light';
+    text-decoration: none;
+    transition: 1s;
+}
+
+.headbox{
+    width: 100%;
+    height:50px;
+}
+.line{
+    width:80%;
+    height: 1px;margin: 0 auto;
+    border-top: 1px solid #aaa;
+}
+
+
+#index{width:100%;text-align: center;}
+#H1{padding: 240px 0 0 0;}
+#H1 h1{font: 52px/150px '微软雅黑 Light';user-select: none;}
+#H1 h1 span{font-family: 微软雅黑, serif;}
+#H1 p{font: 18px/24px '等线';color:#555;}
+
+#ourProduct{width: 100%;height: 500px;}
+#ourProductTable{
+    text-align: center;
+    width: 70%;
+    margin: 50px auto;}
+#ourProductTable img{height:100px;}
+#ourProduct p{margin:0 50px;font: 18px/70px '微软雅黑 Light';color:#999;float: left;}
+#ourProductTable  td{
+    padding: 50px;
+}
+
+#aboutToken{
+}
+#aboutbox{
+    width: 80%;
+    position: relative;
+    margin: 0 auto;}
+#aboutbox img{height: 80%;user-select: none;}
+#aboutbox h1{position: absolute;bottom:0;left: 0;line-height: 70px;
+    background-color: #fff;}
+#aboutToken p{text-align: center;}
+
+#tokenEvent{
+    background-color:rgb(242,242,242);
+}
+#list{ width:400px;margin:60px auto 0 ;}
+
+#aboutProduct{
+}
+
+#teamCul{
+}
+
+#teamJG{
+}
+
+#connectUs{
+    width: 100%;
+    height: 670px;
+}
+#information{
+    margin: 30px auto;
+    text-align: center;
+}
+#information h1,h3{line-height: 50px;}
+
+
+#footer{
+    position: absolute;bottom: 0;
+    width: 100%;text-indent: 40px;
+    background-color: rgb(215,215,215);
+    font: 12px/150px '微软雅黑 Light';
+}
+#footer p{width:200px;float: left;overflow:no-display;margin: auto;}
+#footer a{width:150px;float: left;
+    font: 24px/150px '黑体';text-decoration: none;color: #000;}

@@ -1,5 +1,5 @@
 window.onload = function () {
-    var h=window.screen.availHeight;
+    var h=window.innerHeight;
     document.getElementById("index").style.height = h+"px";
     document.getElementById("ourProduct").style.height = h+"px";
     document.getElementById("aboutToken").style.height = h+"px";

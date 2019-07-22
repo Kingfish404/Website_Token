@@ -1,0 +1,47 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+a{color:black}
+
+.navbar{
+    background-color: white;
+    border:none;
+}
+.fillHeight{
+    height: 100%;
+    background-color: #fff;
+}
+.thin{font-weight: lighter;}
+
+.thumbnail img{height: 200px;}
+
+h2{
+    line-height: 200%;
+}
+
+#ourProduct p,a{font-size: 1.3em;font-family: 微软雅黑, serif;color:#bbb;}
+#ourProduct a{color:#000;}
+#ourProduct h4{line-height: 2em;font-size: 2em;}
+#productTable p{color:#000;}
+#productTable img{transition: 1s;}
+#productTable img:hover{transform: scale(1.1);}
+
+#aboutToken img{width: 100%;}
+#aboutToken p{
+    font: 1.3em/1.5em '微软雅黑';
+}
+
+#bigEvent{
+    background-color: #bbb;}
+
+
+footer{
+    background-color: #ddd;
+}

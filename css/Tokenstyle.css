@@ -22,7 +22,7 @@ a:hover{text-decoration: none;}
 .thin{font-weight: lighter;}
 
 .thumbnail img{height: 200px;}
-
+h1 span{font-family: '微软雅黑 light','黑体';}
 h2{
     line-height: 200%;
 }

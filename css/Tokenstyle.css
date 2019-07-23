@@ -34,7 +34,7 @@ h2{
 #productTable img{transition: 1s;}
 #productTable img:hover{transform: scale(1.1);}
 
-#aboutToken img{width: 75%;}
+/* #aboutToken img{width: 75%;} */
 #aboutToken p{
     font: 1.3em/1.5em '微软雅黑';
 }

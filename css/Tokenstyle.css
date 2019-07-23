@@ -8,7 +8,8 @@ body{
     width: 100%;
 }
 
-a{color:black}
+a{color:black;user-select: none;}
+a:hover{text-decoration: none;}
 
 .navbar{
     background-color: white;

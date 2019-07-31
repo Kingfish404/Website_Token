@@ -7,9 +7,9 @@ body{
     height: 100%;
     width: 100%;
 }
-
 a{color:black;user-select: none;}
 a:hover{text-decoration: none;}
+
 
 .navbar{
     background-color: white;
@@ -22,10 +22,13 @@ a:hover{text-decoration: none;}
 .thin{font-weight: lighter;}
 
 .thumbnail img{height: 200px;}
-h1 span{font-family: '微软雅黑 light','黑体';}
+
 h2{
     line-height: 200%;
 }
+
+#index h1{margin: 20% auto 0;}
+#index h1 span{font-family: '微软雅黑 light','黑体';}
 
 #ourProduct p,a{font-size: 1.3em;font-family: 微软雅黑, serif;color:#bbb;}
 #ourProduct a{color:#000;}

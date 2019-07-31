@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="cn">
-
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
 <head>
     <meta charset="UTF-8">
     <title>Token团队官网</title>
     <link rel="icon" href="images/favicon.ico">
     <meta name="keywords" content="Token,WUT,武汉理工大学,学生团队,互联网">
     <meta name="author" content="Jin yu with other Token teammates">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="renderer" content="webkit">
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/Tokenstyle.css" type="text/css">
+    <link rel="stylesheet" href="css/animate-3.72-min.css" type="text/css">
 </head>
 
 <body>
@@ -43,9 +47,9 @@
     </nav>
     <div class="jumbotron text-center fillHeight" id="index">
         <div class="container " id="indexIntro">
-            <h1>Token<span class="thin">——从校园里走出的创新团队</span></h1><br><br>
-            <p>Token团队成立于2000年3月，目前团队的产品和服务已覆盖武汉理工大学5个校区、<br>累计数十万师生，在华中高校互联网团队排名位居总榜前列</p><br>
-            <p><a class="btn btn-primary btn-lg btnLearnMore" href="#" role="button">了解更多</a></p>
+            <h1 class="animated fadeInUp">Token<span class="thin">——从校园里走出的创新团队</span></h1><br><br>
+            <p class="animated delay-1s fadeInUp">Token团队成立于2000年3月，目前团队的产品和服务已覆盖武汉理工大学5个校区、<br>累计数十万师生，在华中高校互联网团队排名位居总榜前列</p><br>
+            <p class="animated delay-2s fadeInUp"><a class="btn btn-primary btn-lg btnLearnMore" href="#" role="button" style="color: aliceblue">了解更多</a></p>
         </div>
     </div>
     <div class="fillHeight container-fluid" id="ourProduct">
@@ -99,8 +103,7 @@
 
     <div class="container-fluid" id="aboutToken">
         <div class="row">
-            <img class="col-md-10 col-md-offset-1" src="images/aboutToken.gif" alt="...">
-
+            <img class="col-md-10 col-md-offset-1" id="aboutPicture" src="images/aboutToken.gif" alt="...">
         </div>
         <h2>关于Token</h2>
         <div class="row text-center">
@@ -119,73 +122,73 @@
                 <ul class="col-md-4 col-md-offset-4 col-sd-10 col-sd-offset-2 ">
                     <li>2000年3月19日Token Studio成立</li>
                     <li>2000年3月19日校园文化网站上线</li>
-                    <li>拓垦工作室与学校<br>网络信息中心签订合作协议</li>
+                    <li>拓垦工作室与学校网络信息中心签订合作协议</li>
                     <li></li>
                 </ul>
             </div>
             <br><br>
             <div class="row timeList2">
                 <ul class="col-md-4 col-md-offset-4">
-                    <li>2006年6月9日，Token Studio正式改<br>名为Token团队</li>
-                    <li>2011年4月30日 经纬网十周年站庆在<br>西院大礼堂举行</li>
-                    <li>2013年10月<br>Token团队自主开发的Andriod手机端app<br>“掌上理工大”正式上线，仅短短一月用户量超过2千</li>
-                    <li>2014年12月2日<br>掌上理工大ANDROID版用户量突破3万</li>
+                    <li>2006年6月9日，Token Studio正式改名为Token团队</li>
+                    <li>2011年4月30日 经纬网十周年站庆在西院大礼堂举行</li>
+                    <li>2013年10月Token团队自主开发的Andriod手机端app“掌上理工大”正式上线，仅短短一月用户量超过2千</li>
+                    <li>2014年12月2日掌上理工大ANDROID版用户量突破3万</li>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="fillHeight  container-fluid" id="MoreProduct">
+    <div class="fillHeight  container-fluid" id="aboutProduct">
         <div class="row">
             <h2>关于产品</h2>
         </div>
         <div class="row">
-            <div class="col-md-4 text-center">
+            <div class="col-md-5 text-center">
                 <div class="row">
-                    <img src="..." alt="...">
+                    <img src="images/zslgd.webp" alt="...">
                 </div>
                 <div class="row">
                     <h4>
-                        ...
+                        掌上理工大
                     </h4>
                 </div>
             </div>
-            <div class="col-md-8">
-                <img src="..." alt="...">
+            <div class="col-md-7">
+                <img src="images/zslgd.webp" alt="...">
+                <p>专为武汉理工大学的学子们打造的校园服务软件，便捷吾理生活！<br>提供课表、成绩、图书馆、宿舍电费的查询等功能，是武汉理工大学学习生活的必备神器。</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-2"><img src="..." alt="..."></div>
-            <div class="col-md-2"><img src="..." alt="..."></div>
-            <div class="col-md-2"><img src="..." alt="..."></div>
-            <div class="col-md-2"><img src="..." alt="..."></div>
-            <div class="col-md-2"><img src="..." alt="..."></div>
+        <div class="row" id="aboutProductList">
+            <div class="col-xs-2 col-sm-2 col-xs-offset-1 col-sm-offset-1   col-md-2 col-md-offset-1"><img src="images/feima.webp" alt="..."></div>
+            <div class="col-xs-2 col-sm-2 col-md-2"><img src="images/hy.webp" alt="..."></div>
+            <div class="col-xs-2 col-sm-2 col-md-2"><img src="images/zslgd.webp" alt="..."></div>
+            <div class="col-xs-2 col-sm-2 col-md-2"><img src="images/xcx.webp" alt="..."></div>
+            <div class="col-xs-2 col-sm-2 col-md-2"><img src="images/zb.webp" alt="..."></div>
         </div>
     </div>
-    <div class="fillHeight  container-fluid">
+    <div class="fillHeight  container-fluid" id="teamCul">
         <h2>团队文化</h2>
         <div class="row">
-            <div class="col-sd-6 col-md-3">
+            <div class="col-xs-6 col-sm-6 col-sd-6 col-md-3">
                 <p>务实</p>
             </div>
-            <div class="col-sd-6 col-md-3"><img src="..." alt="..."></div>
+            <div class="col-xs-6 col-sm-6 col-sd-6 col-md-3"><img src="images/d2.png" alt="..."></div>
 
         </div>
         <div class="row">
-            <div class="col-md-3 col-md-offset-6"><img src="..." alt="..."></div>
-            <div class="col-md-3">
+            <div class="col-xs-6 col-sm-6 col-md-3 col-md-offset-6"><img src="images/d1.png" alt="..."></div>
+            <div class="col-xs-6 col-sm-6 col-md-3">
                 <p>高效</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-xs-6 col-sm-6 col-md-3">
                 <p>文化</p>
             </div>
-            <div class="col-md-3"><img src="..." alt="..."></div>
+            <div class="col-xs-6 col-sm-6 col-md-3"><img src="images/d3.png" alt="..."></div>
         </div>
         <div class="row">
-            <div class="col-md-3 col-md-offset-6"><img src="..." alt="..."></div>
-            <div class="col-md-3">
+            <div class="col-xs-6 col-sm-6 col-md-3 col-md-offset-6"><img src="images/d4.png" alt="..."></div>
+            <div class="col-xs-6 col-sm-6 col-md-3">
                 <p>规范</p>
             </div>
         </div>
@@ -195,32 +198,31 @@
         <h2>团队架构</h2>
         <div class="container">
             <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6">
-                    <img src="..." alt="...">
+                <div class="hidden-xs hidden-sm col-md-3"></div>
+                <div class="hidden-xs hidden-sm col-md-6">
+                    <img style="width: 80%;margin: 0 5%;" src="images/Token.png" alt="...">
                 </div>
                 <div class="col-md-3"></div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
+            <div class="row" id="TokenJGlist">
+                <div class="col-xs-12 col-sd-12 col-md-4">
                     <div class="row">
-                        <div class="col-md-6"><img src="..." alt="..."></div>
-                        <div class="col-md-6"><img src="..." alt="..."></div>
+                        <div class="col-xs-6 col-sm-6 col-md-6"><img src="images/d1.png" alt="..."></div>
+                        <div class="col-xs-6 col-sm-6 col-md-6"><img src="images/d2.png" alt="..."></div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6"><img src="..." alt="..."></div>
-                        <div class="col-md-6"><img src="..." alt="..."></div>
+                        <div class="col-xs-6 col-sm-6 col-md-6"><img src="images/d3.png" alt="..."></div>
+                        <div class="col-xs-6 col-sm-6 col-md-6"><img src="images/d4.png" alt="..."></div>
                     </div>
                 </div>
-                <div class="col-md-4"></div>
-                <div class="col-md-4">
+                <div class="col-xs-12 col-sd-12 col-md-4 col-md-offset-4">
                     <div class="row">
-                        <div class="col-md-6"><img src="..." alt="..."></div>
-                        <div class="col-md-6"><img src="..." alt="..."></div>
+                        <div class="col-xs-6 col-sm-6 col-md-6"><img src="images/d5.png" alt="..."></div>
+                        <div class="col-xs-6 col-sm-6 col-md-6"><img src="images/d6.png" alt="..."></div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6"><img src="..." alt="..."></div>
-                        <div class="col-md-6"><img src="..." alt="..."></div>
+                        <div class="col-xs-6 col-sm-6 col-md-6"><img src="images/d1.png" alt="..."></div>
+                        <div class="col-xs-6 col-sm-6 col-md-6"><img src="images/d2.png" alt="..."></div>
                     </div>
                 </div>
             </div>
@@ -254,8 +256,8 @@
                     <div class="col-md-7">
                         <ul class="nav navbar-nav ">
                             <li><a href="#">拓垦博客</a></li>
-                            <li><a href="#">周边商城</a></li>
-                            <li><a href="#">招新系统</a></li>
+                            <li><a href="https://weidian.com/s/1792107232?sfr=app&wfr=qfriend&isappinstalled=0&source=shop&ifr=shopdetail" target="_blank">周边商城</a></li>
+                            <li><a href="https://token.itoken.team/join" target="_blank">招新系统</a></li>
                         </ul>
                     </div>
                 </div>
@@ -268,7 +270,6 @@
                 </ul>
                 <div class="col-sd-3">
                     <a class="navbar-brand" href="#"><img style="height: 120%;" src="images/Token.png" alt="..."> </a>
-                    <p class="text-right">吾理拓垦团队</p>
                 </div>
             </div>
         </div>
@@ -286,13 +287,13 @@
             $('html , body').animate({ scrollTop: $('#ourProduct').offset().top - 20 }, 500);
         }
         btn[1].onclick = function () {
-            $('html , body').animate({ scrollTop: $('#MoreProduct').offset().top - 20 }, 500);
+            $('html , body').animate({ scrollTop: $('#aboutProduct').offset().top - 20 }, 500);
         }
         nav[0].onclick = function () {
             $('html,body').animate({ scrollTop: 0 }, 500);
         }
         nav[1].onclick = function () {
-            $('html,body').animate({ scrollTop: $('#aboutToken').offset().top - 20 }, 500);
+            $('html,body').animate({ scrollTop: $('#aboutPicture').offset().top - 20 }, 500);
         }
         nav[2].onclick = function () {
             $('html,body').animate({ scrollTop: $('#teamJG').offset().top - 20 }, 500);

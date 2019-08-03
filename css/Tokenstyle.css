@@ -1,6 +1,7 @@
 html{
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
 body{
@@ -8,8 +9,19 @@ body{
     width: 100%;
 }
 a{color:black;user-select: none;}
+a:link{}
+a:visited{text-decoration: none;color: #bebebe;}
 a:hover{text-decoration: none;}
+a:active{text-decoration: none;}
 
+@media screen and (max-width:700px){
+    #index h1{margin: 40% auto 0;}
+    #aboutToken img{width: 98%;margin:10% 1% 0;}
+}
+@media screen and (min-width:700px){
+    #index h1{margin: 20% auto 0;}
+    #aboutToken img{width: 80%;margin:0 10% 0;}
+}
 
 .navbar{
     background-color: white;
@@ -20,14 +32,14 @@ a:hover{text-decoration: none;}
     background-color: #fff;
 }
 .thin{font-weight: lighter;}
-
-.thumbnail img{height: 200px;}
+.thumbnail img{width: 200px;height: 200px;}
+.btnLearnMore{color: #000;}
 
 h2{
+    padding: 0 0 0 2%;
     line-height: 200%;
 }
 
-#index h1{margin: 20% auto 0;}
 #index h1 span{font-family: '微软雅黑 light','黑体';}
 
 #ourProduct p,a{font-size: 1.3em;font-family: 微软雅黑, serif;color:#bbb;}
@@ -37,15 +49,53 @@ h2{
 #productTable img{transition: 1s;}
 #productTable img:hover{transform: scale(1.1);}
 
-/* #aboutToken img{width: 75%;} */
+
 #aboutToken p{
     font: 1.3em/1.5em '微软雅黑';
 }
 
 #bigEvent{
-    background-color: #bbb;}
+    height: 85%;
+    margin: auto auto;
+    background-color: #bbb;
+}
+#bigEvent ul{
+    width: 60%;
+    margin:auto 20%;
+}
+
+#aboutProduct{}
+#aboutProduct img{
+
+}
+#aboutProductList img{
+    width:90%;
+}
+
+#teamCul{}
+#teamCul p{
+    font-size: 2em;
+    line-height: 5em;
+    text-align: center;
+}
+#teamCul img{
+    width: 10em;
+    height: 10em;
+}
+
+#teamJG{}
+#TokenJGlist img{
+    width: 10em;
+    height: 10em;
+}
 
 
 footer{
+    height: 10%;
+    background-color: #ddd;
+    margin: auto;
+}
+footer p{margin: 5%;}
+footer li:visted{
     background-color: #ddd;
 }

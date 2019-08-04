@@ -1,13 +1,6 @@
-html{
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-}
+html{height: 100%;width: 100%;overflow-x: hidden;}
+body{height: 100%;width: 100%;}
 
-body{
-    height: 100%;
-    width: 100%;
-}
 a{color:black;user-select: none;}
 a:link{text-decoration:none;}
 a:visited{text-decoration: none;color: #bebebe;}
@@ -21,31 +14,19 @@ a:active{text-decoration: none;}
 @media screen and (min-width:700px){
     #index h1{margin: 20% auto 0;}
     #aboutToken img{width: 80%;margin:0 10% 0;}
+    #aboutBox{margin:3% auto 2%;}
     #aboutProductList img{margin: 40% auto 0;}
 }
 
-.navbar{
-    background-color: white;
-    border:none;
-}
-.fillHeight{
-    height: 100%;
-    background-color: #fff;
-    clear-side: both;
-}
+.navbar{background-color: white;border:none;}
+.fillHeight{height: 100%;clear-side: both;background-color: #fff;}
 .thin{font-weight: lighter;}
 .thumbnail{border: none;}
 .thumbnail img{width: 200px;height: 200px;}
-.btnLearnMore{color: #000;}
 
-h2{
-    padding: 0 0 0 2%;
-    line-height: 200%;
-    clear-side: both;
-}
-
-#index h1 span{
-    font-family: '微软雅黑 light', '黑体', sans-serif;}
+h1{user-select: none;}
+h1 span{font-family: '微软雅黑 light', '黑体', sans-serif;}
+h2{padding: 0 0 0 2%;line-height: 200%;clear-side: both;}
 
 #ourProduct p,a{font-size: 1.3em;font-family: 微软雅黑, serif;color:#bbb;}
 #ourProduct a{color:#000;}
@@ -54,57 +35,27 @@ h2{
 #productTable img{transition: 1s;}
 #productTable img:hover{transform: scale(1.1);}
 
-#aboutToken p{
-    font: 1.3em/1.5em '微软雅黑';
-}
+#aboutToken p{font: 1.3em/1.5em '微软雅黑';}
 
-#bigEvent{
-    width: 100%;
-    height: 85%;
-    margin: auto auto;
-    background-color: #bbb;
-}
-#bigEvent ul{
-    width: 60%;
-    margin:auto 20%;
-}
-#timeline{
-    width: 80%;
-    height: 70%;
-    overflow: hidden;
-}
-#timeline ul{
-    margin:0 auto ;
-}
+#bigEvent{width: 100%;height: 85%;margin: auto auto;background-color: #bbb;}
+#timeline{width: 80%;height: 70%;overflow: hidden;margin: 0 auto;}
+#timeline li{margin:5%;}
 
 #aboutProduct{}
-#aboutImg{height: 10em;width: 10em;}
+#aboutBox{animation-delay: 100ms;animation-duration: 1s;}
+#aboutImg{height: 10em;width: 10em;transition: 1s ease-in-out;}
 #aboutProductTap{width:5em;height: 5em;margin: 0 auto;}
 
 #teamCul{}
-#teamCul p{
-    font-size: 2em;
-    line-height: 5em;
-    text-align: center;
-}
-#teamCul img{
-    width: 10em;
-    height: 10em;
-}
+#teamCul p{font-size: 2em;line-height: 5em;text-align: center;}
+#teamCul img{width: 10em;height: 10em;}
 
 #teamJG{}
-#TokenJGlist img{
-    width: 10em;
-    height: 10em;
-}
+#TokenJGlist img{width: 10em;height: 10em;margin: auto auto;}
+.imgList{transition:all 2s;}
+.imgList:hover{background-color: #bebebe;top:-10px;}
 
 
-footer{
-    height: 10%;
-    background-color: #ddd;
-    margin: auto;
-}
+footer{height: 10%;background-color: #ddd;margin: auto;}
 footer p{margin: 5%;}
-footer li:visited{
-    background-color: #ddd;
-}
+footer li:visited{background-color: #ddd;}

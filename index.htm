@@ -48,7 +48,9 @@
         <div class="container " id="indexIntro">
             <h1 class="animated fadeInUp">Token<span class="thin">——从校园里走出的创新团队</span></h1><br><br>
             <p class="animated delay-1s fadeInUp">Token团队成立于2000年3月，目前团队的产品和服务已覆盖武汉理工大学5个校区、<br>累计数十万师生，在华中高校互联网团队排名位居总榜前列</p><br>
-            <p class="animated delay-2s fadeInUp"><a class="btn btn-primary btn-lg btnLearnMore" href="javascript:scrollToOurProduct()" role="button">了解更多</a></p>
+            <p class="animated delay-2s fadeInUp">
+                <a class="btn btn-primary btn-lg btnLearnMore" href="javascript:scrollToOurProduct()" role="button">了解更多</a>
+            </p>
         </div>
     </div>
     <div class="fillHeight container-fluid" id="ourProduct">
@@ -156,11 +158,16 @@
             </div>
         </div>
         <div class="row" id="aboutProductList">
-            <div class="col-xs-6 col-sm-6 col-md-2 col-md-offset-1 thumbnail"><img src="images/feima.webp" alt="..." id="List-1"></div>
-            <div class="col-xs-6 col-sm-6 col-md-2 thumbnail"><img src="images/hy.webp" alt="..." id="List-2"></div>
-            <div class="col-xs-6 col-sm-4 col-md-2 thumbnail"><img src="images/zslgd.webp" alt="..." id="List-3"></div>
-            <div class="col-xs-6 col-sm-4 col-md-2 thumbnail"><img src="images/xcx.webp" alt="..." id="List-4"></div>
-            <div class="col-xs-12 col-sm-4 col-md-2 thumbnail"><img src="images/zb.webp" alt="..." id="List-5"></div>
+            <div class="col-xs-6 col-sm-6 col-md-2 col-md-offset-1 thumbnail" onclick="toGZH();">
+                <img src="images/feima.webp" alt="..." id="List-1"></div>
+            <div class="col-xs-6 col-sm-6 col-md-2 thumbnail" onclick="toHY();">
+                <img src="images/hy.webp" alt="..." id="List-2"></div>
+            <div class="col-xs-6 col-sm-4 col-md-2 thumbnail" onclick="toZSLGD();">
+                <img src="images/zslgd.webp" alt="..." id="List-3"></div>
+            <div class="col-xs-6 col-sm-4 col-md-2 thumbnail" onclick="toXCX();">
+                <img src="images/xcx.webp" alt="..." id="List-4"></div>
+            <div class="col-xs-12 col-sm-4 col-md-2 thumbnail" onclick="toTokenStroe();">
+                <img src="images/zb.webp" alt="..." id="List-5"></div>
         </div>
     </div>
     <div class="fillHeight  container-fluid" id="teamCul">
@@ -241,6 +248,7 @@
             <p>Still in Pause</p>
             <h3>意见反馈</h3>
             <p>404 not found</p>
+            <br>
         </address>
     </div>
 

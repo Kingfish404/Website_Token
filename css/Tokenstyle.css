@@ -13,9 +13,12 @@ a:active{text-decoration: none;}
 }
 @media screen and (min-width:700px){
     #index h1{margin: 20% auto 0;}
+    #productTable{margin: 3% auto;}
     #aboutToken img{width: 80%;margin:0 10% 0;}
     #aboutBox{margin:3% auto 2%;}
-    #aboutProductList img{margin: 40% auto 0;}
+    #aboutProductList img{margin: 20% auto 20%;}
+    #aboutProductList div{transition: 1s;}
+    #aboutProductList div:hover{top:-5px;background-color: #bebebe;}
 }
 
 .navbar{background-color: white;border:none;}

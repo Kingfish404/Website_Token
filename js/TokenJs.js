@@ -1,11 +1,5 @@
-$('#List-1').hover(function () {toGZH();});
-$('#List-2').hover(function () {toHY();});
-$('#List-3').hover(function () {toZSLGD();});
-$('#List-4').hover(function () {toXCX();});
-$('#List-5').hover(function () {toTokenStroe();});
-
 function scrollToOurProduct() {
-    $('html , body').animate({ scrollTop: $('#ourProduct').offset().top - 20 }, 500);
+    $('html , body').animate({ scrollTop: $('#ourProduct').offset().top - 20 }, 1000);
 }
 function scrollToAboutProduct() {
     $('html , body').animate({ scrollTop: $('#aboutProduct').offset().top - 20 }, 500);

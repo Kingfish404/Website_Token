@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2a8d6e8-d975-47ee-bf41-3b4a9890a572" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/support.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/Tokenstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Tokenstyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/index.htm" afterDir="false" />
@@ -12,6 +13,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -87,6 +95,8 @@
       <workItem from="1564928735106" duration="250000" />
       <workItem from="1564928999852" duration="370000" />
       <workItem from="1564996448114" duration="2208000" />
+      <workItem from="1565759636433" duration="4635000" />
+      <workItem from="1566207586533" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1564894990698</created>

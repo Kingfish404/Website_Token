@@ -1,3 +1,22 @@
+// var Height =document.body.clientHeight;
+//
+// mousewheel(document, function(e) {
+//     if(e.wheelDelta > 0) {
+//         scrollUp();
+//     } else {
+//         scrollDown();
+//     }
+//
+// }, true)
+
+function scrollUp() {
+    $('html , body').animate({ scrollTop:document.scrollingElement.scrollTop-Height},500);
+}
+
+function scrollDown() {
+    $('html , body').animate({ scrollTop:document.scrollingElement.scrollTop+Height},500);
+}
+
 function scrollToOurProduct() {
     $('html , body').animate({ scrollTop: $('#ourProduct').offset().top - 20 }, 1000);
 }

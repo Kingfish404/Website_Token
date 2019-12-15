@@ -2,7 +2,7 @@
 
 I am just a product manager of Token who is studying web now.
 
-Click [here](https://kingfish404.github.io/Token-website/) to visit it.
+Click [here](http://kingfish404.com/Website_Token/) to visit it.
 
 Copyright@Jin Yu
 

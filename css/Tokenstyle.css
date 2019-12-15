@@ -55,15 +55,15 @@ h2{padding: 0 0 0 2%;line-height: 200%;clear-side: both;}
 
 #teamCul{}
 #teamCul p{font-size: 2em;line-height: 5em;text-align: center;}
-#teamCul img{width: 10em;height: 10em;}
+#teamCul img{width: 10em;height: 10em;margin: auto 30%;}
 
 #teamJG{}
-#TokenJGlist img{width: 10em;height: 10em;margin: auto auto;}
+#TokenJGlist img{width: 10em;height: 10em;margin: auto 30%;}
 .imgList{transition:all 2s;}
 .imgList:hover{background-color: #bebebe;top:-10px;}
 
 
 footer{height: 7%;background-color: #ddd;margin: auto;}
-footer p{margin: 4%;}
+footer p{line-height: 400%;margin: 0;}
 footer li:visited{background-color: #ddd;}
-footer img{margin: 1%;}
+footer img{margin: 20%;}
